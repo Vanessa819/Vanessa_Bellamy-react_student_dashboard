@@ -1,0 +1,188 @@
+body{
+  background-color: #b2dfdb
+}
+
+.App-header {
+  background: #e0f2f1 ;
+  background-position: right 20px bottom 15px;
+  font-family: Poppins;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  color: #4db6ac;
+  }
+  
+  .App-header h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin: 0;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    font-family: Poppins;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4db6ac ;
+  }
+  
+  .navigation li {
+    float: left;
+    margin: 20px;
+  }
+  
+  .navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation li a:hover {
+    background-color: beige ;
+  }
+  
+  
+  .OverviewPage {
+    font-family: Poppins;
+    padding: 15px;
+  }
+  
+  .OverviewPage h1 {
+    font-family: Poppins;
+    text-align: left;
+    padding-left: 50px;
+    margin-left: 50px;
+  }
+  
+  .ChartComponent {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    justify-content: center;
+  }
+  
+  .InputSelect {
+    padding: 15px;
+    background-color: #e0f2f1;
+    border-radius: 0px 0px 5px 0px;
+    }
+  
+  .InputSelectLabel {
+    margin-right: 5px;
+    
+  }
+  
+  .SelectStudents {
+    font-family: Poppins;
+    padding: 15px;
+    background-color:#e0f2f1 ;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px;
+  }
+  
+  .SelectStudents p {
+    margin: 0;
+    padding-bottom: 5px;
+    
+  }
+  
+ .StudentsPage {
+    font-family: Poppins;
+    padding: 15px;
+    
+  }
+  
+  .StudentsPage h1 {
+    font-family: Poppins;
+    text-align: left;
+    margin-right: 35px;
+    }
+  
+  .ListBlock {
+    width: 400px;
+  }
+  
+  .StudentsPageList ul {
+    list-style: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .StudentsPageList li {
+    display: inline-block;
+    background-color: #e0f2f1;
+    width: 40%;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  
+  .StudentsPageList li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .GraphComponent {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    justify-content: center;
+  }
+  
+  .ComponentInfo {
+    padding: 15px;
+    background-color: #e0f2f1;
+    border-radius: 0px 0px 5px 5px;
+  }
+  
+  .ComponentInfo p {
+    margin: 0;
+  }
+  
+  .ComponentInfo .fun::before {
+    content: "";
+    display: inline-block;
+    background-color: #084d8d;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
+  
+  .ComponentInfo .difficult::before {
+    content: "";
+    display: inline-block;
+    background-color:#c2185b ;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
+  
+  .ComponentInfo .averageAll::before {
+    content: "";
+    display: inline-block;
+    background-color: #084d8d;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px; 
+  }
+  
+  .ComponentInfo .averageOneStudent::before {
+    content: "";
+    display: inline-block;
+    background-color: #c2185b;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
